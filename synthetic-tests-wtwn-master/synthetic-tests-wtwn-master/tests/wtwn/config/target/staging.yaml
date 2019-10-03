@@ -1,0 +1,30 @@
+default:
+  'pytest_mark': 'synthetic_tests_wtwn'
+  'device_domains':
+    - 'androidTv-cableco'
+    - 'stb-cableco'
+    - 'mobile-cableco'
+  'displayCount': '15'
+  'partnerId': 'tivo:pt.1007000'
+  'mindHost': 'http://middlemind-int.st.tivo.com'
+  'mindPort': '2197'
+  'mindService': 'mind/mind29'
+  'device_domain_config':
+    'androidTv-cableco':
+      'mso': 'cableco'
+      'deviceType': 'androidTv'
+      'bodyId': 'tsn:A8F000005CFE9A2'
+      'rootFeedName': '/feedList/streamerRoot'
+      'rootCaption': 'Streamer Root'
+    'stb-cableco':
+      'mso': 'cableco'
+      'deviceType': 'stb'
+      'bodyId': 'tsn:A8F000005CFE9A2'
+      'rootFeedName': '/feedList/stbRoot'
+      'rootCaption': 'STB Root'
+    'mobile-cableco':
+      'mso': 'cableco'
+      'deviceType': 'iPad'
+      'bodyId': 'tsn:A8F000005CFE9A2'
+      'rootFeedName': '/feedList/mobileRoot'
+      'rootCaption': 'Mobile Root'

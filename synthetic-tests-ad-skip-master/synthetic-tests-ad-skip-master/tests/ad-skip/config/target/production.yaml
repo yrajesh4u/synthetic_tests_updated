@@ -1,0 +1,8 @@
+default:
+  mm_url                   : "Int-mm-vip.tp1.tivo.com"
+  mm_port                  : "2197"
+  mind_version             : "/mind/mind35"
+  as_url                   : "mind-dmz-msoiso.sj.tivo.com"
+  as_port                  : "8085"
+  clipMetadataId           : "tivo:cm.93238"
+  bodyId                   : "tsn:A9F000001683D79"

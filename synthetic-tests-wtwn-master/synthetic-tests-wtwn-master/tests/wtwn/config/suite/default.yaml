@@ -1,0 +1,6 @@
+default:
+  owner:  ServiceMindAlerts@tivo.com
+  runbook: https://wiki.tivo.com/wiki/NOC_Runbook_-_Synthetic_Tests_-_wtwn
+  title: What To Watch Now
+  description: |-
+    Validates that the PCD Discovery endpoints are correctly configured and that all WTWN feeds are working. 
